@@ -4,3 +4,17 @@
   color: #960f14;
   text-shadow: 5px 5px 0px #000000;
 }
+
+/* ========================================
+   Estou procurando um elemento no
+   HTML que ao mesmo tempo tem a classe
+   .title e a classe .-second(a idéia de
+   colocar o (-) é identificar rapidamente
+   que é uma classe de variação de um componente
+   ========================================= 
+*/
+.title.-second {
+  color: #fff;
+  text-shadow: none;
+  text-align: center;
+}

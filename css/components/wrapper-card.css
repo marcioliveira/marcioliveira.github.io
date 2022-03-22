@@ -1,4 +1,14 @@
 .wrapper-card {
   display: flex;
+  /* flex-wrap: wrap; */
+  /* max-width: 960px; */
+  gap: 3rem;
   justify-content: center;
+}
+
+/* ========== Responsive ========== */
+@media (max-width: 767px) {
+  .wrapper-card {
+    display: grid;
+  }
 }

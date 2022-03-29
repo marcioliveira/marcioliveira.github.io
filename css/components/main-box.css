@@ -10,3 +10,10 @@
 .main-box .main-title {
   margin-bottom: 28px;
 }
+
+/* Responsive */
+@media (max-width: 767px) {
+  .main-box {
+    display: flex;
+  }
+}

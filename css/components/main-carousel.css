@@ -1,7 +1,10 @@
 .main-carousel {
+  display: flex;
+  justify-content: space-evenly;
   position: relative;
-  padding-right: 100px;
-  padding-left: 100px;
+  padding-right: 85px;
+  padding-left: 85px;
+  overflow: hidden;
 }
 
 /* barra acima do carousel */
@@ -38,4 +41,17 @@
 
 .main-carousel .button-arrow.-right {
   right: 15px;
+}
+
+.main-carousel .items {
+  width: 100%;
+  overflow: hidden;
+}
+
+.main-carousel .elements {
+  display: flex;
+  justify-content: space-evenly;
+
+  transition: transform 120ms ease-in-out;
+  /* overflow: hidden; */
 }

@@ -1,0 +1,22 @@
+.wrapper-form {
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.wrapper-form .main-title {
+  margin-bottom: 60px;
+}
+
+.wrapper-form .form .main-input {
+  margin-bottom: 20px;
+}
+
+.wrapper-form .form .main-button {
+  width: 100%;
+}
+
+.wrapper-form .form .main-input:last-of-type {
+  margin-bottom: 40px;
+}

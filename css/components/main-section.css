@@ -13,13 +13,18 @@
   background-color: #000;
 }
 
-.main-section.-bdFirst {
-  border-color: #f25a70;
-}
-
 .main-section.-bgSecond {
   background-color: #7c5e99;
   padding-bottom: 0px;
+}
+
+.main-section.-bgBlackSecond {
+  background-color: #3a4042;
+  border-bottom: none;
+}
+
+.main-section.-bdFirst {
+  border-color: #f25a70;
 }
 
 .main-section.-bdBlack {

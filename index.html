@@ -30,6 +30,11 @@
     <link rel="stylesheet" href="./css/components/button-arrow.css" />
     <link rel="stylesheet" href="./css/components/node-card.css" />
     <link rel="stylesheet" href="./css/components/main-carousel.css">
+    <link rel="stylesheet" href="./css/components/main-label.css">
+    <link rel="stylesheet" href="./css/components/main-input.css">
+    <link rel="stylesheet" href="./css/components/wrapper-form.css">
+
+
 
   </head>
   <body>
@@ -238,18 +243,20 @@
 
     </section>
 
-    <section class="main-section">
-      <h2 class="main-title">Contatos</h2>
-
-      <form action="submit" class="form">
-        <label class="main-label" for="name">Nome:</label>
-        <input class="main-input" id="name" type="text" name="name" required>
-        <label class="main-label" for="email">Email:</label>
-        <input class="main-input" id="email" type="email" name="name" required>
-        <label class="main-label" for="message">Mensagem:</label>
-        <textarea name="" class="main-input -textarea" id="message" required></textarea>
-        <input type="submit" value="Enviar" class="main-button">
-      </form>
+    <section class="main-section -bgBlackSecond">
+      <legend class="main-title -second">Contato</legend>
+      
+      <div class="wrapper-form">
+        <form action="submit" class="form">
+          <label class="main-label" for="name">Nome:</label>
+          <input class="main-input" id="name" type="text" name="name" required>
+          <label class="main-label" for="email">Email:</label>
+          <input class="main-input" id="email" type="email" name="name" required>
+          <label class="main-label" for="message">Mensagem:</label>
+          <textarea name="" class="main-input -textarea" id="message" required></textarea>
+          <input type="submit" value="Enviar" class="main-button">
+        </form>
+      </div>
       
     </section>
     <script src="./scripts/script.js"></script>

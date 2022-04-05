@@ -7,6 +7,7 @@
   font-weight: 500;
   text-decoration: none;
   margin-right: 30px;
+  transition: transform 250ms ease-in-out;
 }
 
 .main-action:before {
@@ -17,3 +18,7 @@
   height: 10px;
   margin-right: 10px;
 }
+
+/* .main-action #about {
+  transition: transform 200ms ease-in-out;
+} */

@@ -18,3 +18,10 @@
   text-shadow: none;
   text-align: center;
 }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .main-title {
+    font-size: 30px;
+  }
+}

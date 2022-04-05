@@ -12,8 +12,14 @@
 }
 
 /* Responsive */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .main-box {
-    display: flex;
+    padding: 30px 34px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-box .main-title {
+    margin-bottom: 18px;
   }
 }

@@ -7,9 +7,12 @@
   font-weight: 500;
   text-decoration: none;
   margin-right: 30px;
-  transition: transform 250ms ease-in-out;
+  transition: 0.3s;
 }
 
+/* .main-action #skills {
+  transition: transform 250ms ease-in-out;
+} */
 .main-action:before {
   content: "";
   display: inline-block;

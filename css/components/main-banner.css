@@ -49,7 +49,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 526px) {
   .main-banner {
     height: auto;
     padding-top: 30px;

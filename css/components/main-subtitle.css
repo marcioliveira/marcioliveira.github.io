@@ -12,7 +12,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 526px) {
   .main-subtitle {
     font-size: 10px;
   }

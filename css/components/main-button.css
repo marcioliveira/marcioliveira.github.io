@@ -16,7 +16,7 @@
 }
 
 /* Responsive */
-@media (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 526px) {
   .main-button {
     font-size: 8px;
     padding: 9px 10px;

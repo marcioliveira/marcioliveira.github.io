@@ -23,3 +23,15 @@
     margin-bottom: 18px;
   }
 }
+
+@media (max-width: 320px) {
+  .main-box {
+    padding: 15px 15px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-box .main-title {
+    margin-bottom: 10px;
+  }
+}

@@ -10,9 +10,6 @@
   transition: 0.3s;
 }
 
-/* .main-action #skills {
-  transition: transform 250ms ease-in-out;
-} */
 .main-action:before {
   content: "";
   display: inline-block;
@@ -21,7 +18,3 @@
   height: 10px;
   margin-right: 10px;
 }
-
-/* .main-action #about {
-  transition: transform 200ms ease-in-out;
-} */

@@ -48,3 +48,21 @@
     justify-content: space-evenly;
   }
 }
+
+@media (max-width: 320px) {
+  .main-banner {
+    height: auto;
+    padding-top: 30px;
+    padding-left: 10px;
+  }
+
+  .main-banner .wrapper {
+    width: 200px;
+    margin-bottom: 18px;
+  }
+
+  .main-banner .main-box {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}

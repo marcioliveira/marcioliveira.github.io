@@ -12,3 +12,10 @@
     display: grid;
   }
 }
+
+@media (min-width: 320px) and (max-width: 526px) {
+  .wrapper-card .logo {
+    width: 140px;
+    height: 140px;
+  }
+}

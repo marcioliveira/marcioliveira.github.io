@@ -11,3 +11,11 @@
 .card-project.-blue {
   background-color: #4c5b84;
 }
+
+/* Responsive */
+@media (min-width: 320px) and (max-width: 526px) {
+  .card-project {
+    width: 180px;
+    height: 180px;
+  }
+}

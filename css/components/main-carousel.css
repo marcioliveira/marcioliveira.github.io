@@ -55,3 +55,14 @@
   transition: transform 120ms ease-in-out;
   /* overflow: hidden; */
 }
+
+/* Responsive */
+@media (min-width: 320px) and (max-width: 526px) {
+  .main-carousel {
+    padding-right: 45px;
+    padding-left: 45px;
+  }
+
+  .main-carousel .button-arrow {
+  }
+}

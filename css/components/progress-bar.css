@@ -14,3 +14,11 @@
 .progress-bar::-webkit-progress-bar {
   background-color: #fff;
 }
+
+/* Responsive */
+@media (min-width: 320px) and (max-width: 526px) {
+  .progress-bar {
+    border: 3px solid #000000;
+    height: 25px;
+  }
+}

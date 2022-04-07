@@ -19,3 +19,17 @@
 .skill-tec .title {
   margin-bottom: 10px;
 }
+
+/* Responsive */
+@media (min-width: 320px) and (max-width: 526px) {
+  .skill-tec {
+    height: 80px;
+  }
+  .skill-tec .title {
+    font-size: 14px;
+  }
+
+  .skill-tec .icon {
+    width: 60px;
+  }
+}

@@ -28,3 +28,23 @@
     display: grid;
   }
 }
+
+@media (min-width: 320px) and (max-width: 526px) {
+  .wrapper-skill .skill-tec {
+    margin: 0;
+    justify-content: center;
+    padding-bottom: 20px;
+
+    /* gap: 10px; */
+  }
+
+  .wrapper-skill .skill-tec:nth-child(odd) {
+    margin: 0;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+
+  .wrapper-skill .progress-bar {
+    width: 250px;
+  }
+}

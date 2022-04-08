@@ -4,3 +4,9 @@
   font-weight: 300;
   line-height: 40px;
 }
+
+@media (min-width: 320px) and (max-width: 526px) {
+  .main-label {
+    font-size: 20px;
+  }
+}
